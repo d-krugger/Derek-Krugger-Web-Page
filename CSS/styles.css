@@ -11,8 +11,8 @@ body {
 /*Aca tengo estilos generales*/
 
 header{
-    background: #1f1f1f;
-    padding: 10px 50px;
+    background: white;
+    padding: 20px 53px;
 }
 
 /*Aca tengo los estilos del header*/
@@ -30,7 +30,51 @@ header{
 }
 
 #logo img{
-    border: 2px solid white;
+    border: 1px solid white;
+}
+
+#i #fondo{
+    
+    display: inline-block;
+    filter: blur(7px);
+    filter: brightness(22%);
+}
+
+#i{
+    position: relative;
+}
+
+#i .info-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 0 50px;
+}
+
+#i .info-container #mypicture{
+    width: 300px;
+}
+
+#i .info-container #mypicture img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#i .info-container .information{
+    margin-left: 20px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+#i .info-container .information span{
+    display: inline-block;
+    color: #e49156;
+    margin-bottom: 10px;
+
 }
 
 
