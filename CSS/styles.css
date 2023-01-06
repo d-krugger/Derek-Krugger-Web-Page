@@ -15,6 +15,10 @@ header{
     padding: 20px 53px;
 }
 
+#logo{
+    width: 300px;
+}
+
 /*Aca tengo los estilos del header*/
 
 .image-container{
@@ -23,10 +27,6 @@ header{
 
 .image-container img{
     width: 100%;
-}
-
-#logo{
-    width: 300px;
 }
 
 #logo img{
@@ -76,6 +76,35 @@ header{
     margin-bottom: 10px;
 
 }
+#i .info-container #bio{
+    margin-top: 70px;
+    font-weight: normal;
+    line-height: 1.2;
+    font-size: small;
+}
 
+/*Aqui tengo estilos de la caja de presentacion */
 
+main .social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    list-style: none;
+}
+main .social-icons img{
+    width: 40px;
+    height: 40px;
+}
+main .social-icons li{
+    margin-left: 8px;
+}
+main .social-icons .social-icon{
+    display: flex;
+    background: ;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
 
